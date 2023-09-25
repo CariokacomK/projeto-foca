@@ -1,0 +1,341 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&family=Poppins:ital,wght@0,400;0,600;1,400;1,600&family=Roboto:wght@100;300;400;500&display=swap');
+
+/* 
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif; 
+*/
+
+body{
+    background-image: linear-gradient(to bottom, #ab247e, #4e2f84);
+    height: 100vh;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header h3{
+    font-size: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: white;
+    text-decoration: underline;
+}
+
+.logo-unicesumar{
+    max-width: 230px;
+    width: auto;
+    height: auto;
+}
+
+.logo-foca{
+    max-width: 300px;
+    width: auto;
+    height: 110px;
+}
+
+.foca{
+    display: flex;
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    bottom: -6.9rem;
+    right: 0rem;
+}
+
+.foca-dois{
+    display: flex;
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    top: 6rem;
+    left: 0rem;
+    transform: scaleX(-1);
+}
+
+.foca-principal{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 83.1vh;
+}
+
+.comeco-teste{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.comeco-teste a{
+    height: 50px;
+    width: 150px;
+    border: 1px solid ;
+    color: white;
+    background-image: linear-gradient(to bottom, #ab247e, #4e2f84);
+    text-align: center;
+    padding-top: 2.5%;
+}
+
+.comeco-teste a:hover{
+    background-image: linear-gradient(to bottom, #ffa318, #ffa318);
+    transition: 0.5s ease-in-out;
+    transform: scale(1.1);
+    color: white;
+    border: 1px solid #8e57ecd5;
+}
+
+.foca-principal p{
+    text-align: justify;
+    font-weight: 500;
+    font-size: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    margin-bottom: 5%;
+}
+
+.foca-tres{
+    display: flex;
+    width: 400px;
+    height: 400px;
+    transform: scaleX(-1);
+    
+}
+
+.foca-quatro{
+    display: flex;
+    width: 400px;
+    height: 400px;
+    bottom: -12rem;
+    right: 4rem;
+}
+
+.lead{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 2rem;
+    width: 35%;
+    margin-left: 32.5%;
+}
+
+.lead h3{
+    color: white;
+}
+
+.lead li{
+    color: #1f6caf;
+}
+
+.lead .campo-telefone{
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.lead .data-de-nascimento{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    margin-left: 77px;
+}
+
+.unidade ul{
+    display: flex;
+    flex-wrap: wrap;
+    width: 20rem;
+    justify-content: space-between;
+    gap: 2.5rem;
+    margin-top: 10%;
+}
+
+.unidade label{
+    border: solid 0.15rem rgb(238, 225, 225);
+    border-radius: 7px;
+    flex-wrap: wrap;
+    padding: 3px;
+}
+ 
+.unidade h3{
+    text-align: center;
+} 
+
+.unidade b{
+    color: white;
+}
+
+.aceitar-lgpd{
+    color: white;
+    font-weight: 100;
+    font-size: small
+}
+
+.aceitar-lgpd a{
+    text-decoration: underline;
+    color: white;
+}
+
+.caixa{
+    width: 28.5rem;
+    height: 20px;
+    margin-top: 3%;
+    border: solid 0px #8e57ecd5;
+}
+
+.caixa-telefone{
+    width: 220px;
+    height: 20px;
+    border: solid 0px #8e57ecd5;
+}
+
+.caixa-data{
+    margin-left: 2px;
+    margin-top: 5%;
+}
+
+.caixa-envio{
+    width: 250px;
+    height: 40px;
+    border-radius: 15%;
+    border: solid 0.1em #8e57ecd5;
+    margin-top: 5%;
+    margin-bottom: 2%;
+} 
+
+.caixa-envio:hover{
+    background-color: #ffa318;
+    transition: 0.5s ease-in-out;
+    transform: scale(1.1);
+    color: white;
+}
+
+footer{
+    color: white;
+    font-weight: 500;
+}
+
+footer .lgpd{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 37px;
+    padding-top: 10px 0px 2px 0px;
+    border-top: 1px solid;
+    /* margin-top: 2%; */
+}
+
+.lgpd a{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+.lgpd a:hover{
+    text-decoration: underline;
+}
+
+.redes-sociais{
+    font-weight: 500;
+    font-size: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.aparecer{
+    display: block;
+}
+
+.desaparecer{
+    display: none;
+}
+
+.tecnica{
+    border: dotted 4px white;
+    height: 400px;
+    width: 600px;
+}
+
+.instrucao{
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.instrucao p{
+    padding: 0% 2%;
+}
+
+.instrucao button{
+    width: 8rem;
+    height: 3rem;
+    background-image: linear-gradient(to bottom, #ab247e, #4e2f84);
+    color: white;
+    border: 1px solid ;
+}
+
+.instrucao button:hover{
+    background-image: linear-gradient(to bottom, #ffa318, #ffa318);
+    transition: 0.5s ease-in-out;
+    transform: scale(1.1);
+    color: white;
+    border: 1px solid #8e57ecd5;
+}
+
+.blocoA{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.blocoA .header-blocoA{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2% 0%;
+    padding: 1%;
+    border: solid 1px;
+}
+
+.blocoA ul{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 5%;
+    font-size: 1.5em;
+}
+
+.blocoA .navigation{
+    display: flex;
+    gap: 2rem;
+    height: 100%;
+    align-items: center;
+    font-size: 30px
+}
+
+.seta-esquerda:hover{
+    transition: 0.5s ease-in-out;
+    transform: scale(1.5);
+}
+
+.check-central:hover{
+    transition: 0.5s ease-in-out;
+    transform: scale(1.5);
+}
+
+.seta-direita:hover{
+    transition: 0.5s ease-in-out;
+    transform: scale(1.5);
+}
+
